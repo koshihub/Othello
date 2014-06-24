@@ -1,0 +1,20 @@
+﻿
+.board {
+    position: relative;
+}
+
+.piece {
+    position: absolute;
+    background-color: #058243;
+    border: 1px solid #000;
+}
+    .piece.white::after {
+        color: #fff;
+        font-size: 30px;
+        content: "●";
+    }
+    .piece.black::after {
+        color: #000;
+        font-size: 30px;
+        content: "●";
+    }
